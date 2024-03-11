@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transparency</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white text-center p-5">
+      <h1 class="text-4xl">Task1 - Task2: WebP and AVIF</h1>
+    </header>
+    <main
+      class="text-base text-center p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"
+    >
+      <div>
+        <h2 class="text-4xl">ORIGINAL IMAGE</h2>
+        <img src="/images/logotip.png" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+
+      <div>
+        <h2 class="text-4xl">JPEG</h2>
+        <img src="/images/logotip/logotip8bits.png" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+
+      <div>
+        <h2 class="text-4xl">WebP</h2>
+        <img src="/images/logotip/logotip.gif" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+
+      <div>
+        <h2 class="text-4xl">AVIF</h2>
+        <img src="/images/logotip/logotipLow.jpeg" class="w-full" />
+        <div class="image-info"></div>
+      </div>
+    </main>
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
